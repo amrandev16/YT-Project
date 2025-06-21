@@ -27,6 +27,9 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
+.fa-bars{
+    padding-top: 5px;
+}
 a{
     color: #092032;
     text-decoration: none;
@@ -458,6 +461,12 @@ footer .social-links{
 background-color: rgb(245,245,245);
 }
 
+button.navbar-toggler {
+    padding: 5px 10px !important;
+    border: 1px solid #ddd;
+    font-size: 22px;
+    color: #444;
+}
 /* span{
        border-radius: 50%;
 } */
