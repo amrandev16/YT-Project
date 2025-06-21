@@ -9,6 +9,8 @@ $(document).ready(function(){
     margin:10,
     nav:true,
     items:1,
+     autoplay:true,
+    autoplayTimeout: 3000, 
     dots:false,
     navText:['PREV','NEXT'],
     smartSpeed:1000,
@@ -36,7 +38,9 @@ $(document).ready(function(){
     margin:0,
     nav:true ,
     navText:['PREV','NEXT'],
-    dots:false,
+    dots:true,
+    autoplayTimeout: 3000, 
+    autoplay:true,
     margin:24,
     smartSpeed:1000,
     responsive:{
@@ -50,7 +54,7 @@ $(document).ready(function(){
         },
         1140:{
             items:2,
-            // center:true,
+            center:true,
         }
     }
 })
