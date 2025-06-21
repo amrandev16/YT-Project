@@ -7,7 +7,8 @@ html {
 
 section{
  margin: 0 auto;
- padding: 4rem;
+ padding-top: 5rem;
+ padding-bottom: 4rem;
 }
 
 .head-line{
@@ -37,11 +38,11 @@ a{
     color: #ff4d29;
 
 } */
-
-img{
+img {
     width: 100%;
-
+    margin-top: 2rem;
 }
+
 .intro{
     margin-bottom: 40px;
 }
@@ -94,6 +95,7 @@ img{
     color: #ffffff;
     font-size: 16px;
     border-radius: 100%;
+    margin-right: 10px;
     
 
 }
@@ -121,6 +123,7 @@ img{
 .btn{
     padding: 9px 24px;
     font-weight: 500;
+    margin-right: 1rem;
 
 }
 
@@ -211,7 +214,7 @@ img{
 /* /////////////// Services /////////////// */
 
 .services-box{
-    padding: 32px;
+    padding: 20px;
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
     
@@ -345,7 +348,7 @@ img{
                 max-width: 900px;
                 margin: auto;
                 text-align: center;
-                padding: 5rem;
+                padding: 0.5rem;
             }
             .review img{
                 width:85px !important;
@@ -380,7 +383,7 @@ img{
     color: #ff4d29;
     color: #fff;
     border-radius: 100px;
-    top: 20px;
+    top: 52px;
     left: 20px;
     position: absolute;
 }
@@ -428,6 +431,7 @@ footer .navbar-brand{
 }
 footer .social-links a{
     padding: 1.5rem;
+
 }
 
 .footer-top{
