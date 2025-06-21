@@ -40,7 +40,6 @@ a{
 } */
 img {
     width: 100%;
-    margin-top: 2rem;
 }
 
 .intro{
@@ -383,7 +382,7 @@ img {
     color: #ff4d29;
     color: #fff;
     border-radius: 100px;
-    top: 52px;
+    top: 25px;
     left: 20px;
     position: absolute;
 }
